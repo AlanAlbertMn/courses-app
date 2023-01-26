@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Description:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Udemy marketplace is a web application which provides multiple courses on different domains/technologies. Learners can sign up and then enroll for the course by paying the course fee and start learning. The requirement is to build the frontend for the online learning marketplace application.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# **Milestones**
 
-### `npm start`
+### Milestone 1
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [ ] Create a form-page to add user
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Milestone 2
 
-### `npm test`
+- [ ] Create a form-page to update user's display name, first name, last name, about yourself/bio, areas of interest (can choose multiple interests), user type (student/professional), experience, domain
+      expertise, profile picture
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Milestone 3
 
-### `npm run build`
+- [ ] Create a page to show all the details of a user and the course he's enrolled in
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Milestone 4
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ ] Create page to add and delete courses
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Milestone 5
 
-### `npm run eject`
+- [ ] List the available courses. There should be provision to sort by price (low to high, high to low) and filter options based on course name, course category etc.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Milestone 6
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ ] Create a page to add/remove course to cart of a given user
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Milestone 7
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [ ] Create a page to summarize what is the current content of a given user's cart.
 
-## Learn More
+### Milestone 8
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ ] Create a page to check out the cart items.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This will be creating the order.
+Brownie point: generate a receipt as a file
 
-### Code Splitting
+### Milestone 9
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [ ] Create a page to add reviews and ratings for the course.
 
-### Analyzing the Bundle Size
+### Milestone 10
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [ ] Create a page to show all the required details of a single course.
 
-### Making a Progressive Web App
+### Milestone 11
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [ ] Create a page to show all courses of user along with ratings and reviews.
 
-### Advanced Configuration
+### Milestone 12
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [ ] Create a page to show the courses in inventory based on the Performance. Performance part can be decided on parameters like how many times the course is bought, average ratings of course
 
-### Deployment
+### Milestone 13
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [ ] Create a page to show the recommendation on courses based on the user's domain of interest and by course's performance
 
-### `npm run build` fails to minify
+### Milestone 14
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] Provision for users to stay anonymous when their reviews are displayed to other users. Milestone 11 must respect this.
